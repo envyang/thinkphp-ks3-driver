@@ -1,0 +1,10 @@
+.idea
+*.log
+
+/demo/Application/Runtime/
+/Uploads/
+
+/node_modules/
+
+!*.md
+mode.php

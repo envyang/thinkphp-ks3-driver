@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ks3-driver-demo</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="bs-docs-header" id="content" tabindex="-1">
+    <div class="container">
+        <h1>ks3-driver-demo</h1>
+        <p>该demo需事先获取并配置AccessKeyID 、AccessKeySecret</p>
+
+    </div>
+</div>
+
+<div class="container bs-docs-container">
+
+    <div class="row">
+        <div class="col-md-9" role="main">
+            <form action="{:U('index/upload')}" method="post" class="form-horizontal form form-builder card" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="exampleInputFile">文件上传</label>
+                    <input type="file" id="exampleInputFile" name="file">
+                    <p class="help-block">点击选择上传文件.</p>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-3" role="complementary"></div>
+    </div>
+</div>
+</body>
+</html>
